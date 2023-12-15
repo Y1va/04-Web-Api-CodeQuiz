@@ -1,0 +1,90 @@
+:root {
+  --navy: #35155D;
+  --purple: #512B81;
+  --blue: #4477CE;
+  --lightblue: #8CABFF;
+  --white: #fff;
+  --aqua: #46C2CB;
+  --maroon: #750E21;
+}
+
+* {
+  font-family: 'Afacad';
+}
+
+a {
+  color: var(--navy);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--white);
+}
+
+body {
+  background-color: var(--lightblue);
+  font-size: 100%;
+}
+
+button {
+  display: inline-block;
+  margin: 6px;
+  cursor: pointer;
+  background-color: var(--maroon);
+  color: var(--white);
+  font-size: 100%;
+  border-radius: 6px;
+  padding: 3px 10px;
+  border: 0;
+  transition: background-color 0.2s;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: var(--aqua);
+  color: black;
+}
+
+.choices button {
+  display: block;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.container{
+  margin: 80px auto 0 auto;
+  max-height: 400px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.feedback {
+  font-size: 100%;
+  font-style: italic;
+  color: var(--purple);
+  border-top: 2px solid var(--maroon);
+}
+
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
