@@ -10,7 +10,7 @@ You can see the JavaScript at work when you go through the questions and getting
 
 ## Usage
 
-You can view the page through this link ....
+You can view the page through this link https://y1va.github.io/04-Web-Api-CodeQuiz/
 
 
 ## Preview 
